@@ -25,7 +25,7 @@ public class TicTacToe {
 		do
 		{
 		//Game start Yes/No
-		System.out.println("Do you want to start the game? J/N ");
+		System.out.println("Wollen Sie das Spiel starten? J/N ");
 		str_input = objScanner.next();
 		//If J/j -> leave do-while
 		if(str_input.equals("J") || str_input.equals ("j"))
